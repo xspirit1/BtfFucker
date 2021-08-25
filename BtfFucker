@@ -1,3 +1,4 @@
+print("hhhhhhhhhhh")
 script.Parent.MouseButton1Click:Connect(function()
 	local gui = script.Parent.Parent.Parent.hava
 	local ohabumuoc = script.Parent.Parent.Parent.adasd
