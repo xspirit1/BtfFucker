@@ -1,1 +1,9 @@
-print("hello")
+script.Parent.MouseButton1Click:Connect(function()
+	local gui = script.Parent.Parent.Parent.hava
+	local ohabumuoc = script.Parent.Parent.Parent.adasd
+	
+	if script.Parent.Parent.sifre.Text == "bengaymiyimamk" then
+		gui.Visible = true
+		ohabumuoc:Destroy()
+	end
+end)
