@@ -1,10 +1,12 @@
-print("hhhhhhhhhhh")
 script.Parent.MouseButton1Click:Connect(function()
-	local gui = script.Parent.Parent.Parent.hava
-	local ohabumuoc = script.Parent.Parent.Parent.adasd
-	
-	if script.Parent.Parent.sifre.Text == "bengaymiyimamk" then
-		gui.Visible = true
-		ohabumuoc:Destroy()
+	local anagui = script.Parent.Parent.Parent.hava
+	local sifregui = script.Parent.Parent.Parent.adasd
+	local isim = script.Parent
+	local sifre = script.Parent.Parent.sifre
+	local giris = script.Parent.Parent.giris
+	if sifre.Text == "sefa" then
+		anagui.Visible = true
+		sifregui.Visible = false
+		
 	end
 end)
