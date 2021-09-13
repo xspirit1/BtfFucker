@@ -1,12 +1,1 @@
-script.Parent.MouseButton1Click:Connect(function()
-	local anagui = script.Parent.Parent.Parent.hava
-	local sifregui = script.Parent.Parent.Parent.adasd
-	local isim = script.Parent
-	local sifre = script.Parent.Parent.sifre
-	local giris = script.Parent.Parent.giris
-	if sifre.Text == "sefa" then
-		anagui.Visible = true
-		sifregui.Visible = false
-		
-	end
-end)
+10
