@@ -1,2 +1,9 @@
-10
-ssssss
+if game.Players.LocalPlayer.Name == 'Batuhan_pro67' then
+	script.Parent.Text = 'offf sefa baba gelmis'
+elseif  game.Players.LocalPlayer.Name == 's' then
+	script.Parent.Text = 'owner baba gelmis :o'
+else 
+	script.Parent.Text = 'Tanınmamış kişisin :( AMA  BURAYA GELEREK TANINA BİLİRSİN!!?!*!!!!!'
+Wait(5)
+	script.Parent.Text = 'https://discord.gg/HAufZEJh6e'
+end
